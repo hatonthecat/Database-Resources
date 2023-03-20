@@ -59,7 +59,7 @@ it doesn't require the average reader to look into the history to see changes an
 "https://openwetware.org/wiki/BISC110/F13:Guidelines_for_maintaining_your_lab_notebook
 "• If you make mistakes, do NOT obliterate the error; instead, strike-through once. Never erase, use "white-out," or tear out pages. It is fine to strike-through or X-out (once!) whole pages if it is necessary to start over. You must use an indelible pen to write in your lab notebook. It would not be of much use as a legal document if it were written in pencil.""
 
-In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~such~~as~~a~~lmdb~~ : http://www.lmdb.tech/doc/
+In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~~such~~as~~a~~lmdb~~ :http://www.lmdb.tech/doc/
 
 "The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory, so no malloc's or memcpy's occur during data fetches. As such, the library is extremely simple because it requires no page caching layer of its own, and it is extremely high performance and memory-efficient. It is also fully transactional with full ACID semantics, and when the memory map is read-only, the database integrity cannot be corrupted by stray pointer writes from application code."
 
