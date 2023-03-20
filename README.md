@@ -59,7 +59,11 @@ it doesn't require the average reader to look into the history to see changes an
 "https://openwetware.org/wiki/BISC110/F13:Guidelines_for_maintaining_your_lab_notebook
 "• If you make mistakes, do NOT obliterate the error; instead, strike-through once. Never erase, use "white-out," or tear out pages. It is fine to strike-through or X-out (once!) whole pages if it is necessary to start over. You must use an indelible pen to write in your lab notebook. It would not be of much use as a legal document if it were written in pencil.""
 
-In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~~such as lmdb 
+In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~~such as lmdb~~
+
+case in point: ![image](https://user-images.githubusercontent.com/76194453/226452110-06a65923-c9ee-46d0-8ef4-dd41adf93ce9.png)
+ 
+So i have added more strike through characters, according to the original instuctions, which say to use ~ before and after each word, 2 flanking each side.
 
 (I swear the strike through appeared to be working in the editor but I created a new line and changed it since striking through each word was confusing and not quite working) :http://www.lmdb.tech/doc/
 
