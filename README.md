@@ -123,4 +123,10 @@ And some Java based frameworks:
 
 https://github.com/quarkusio/quarkus
 
+---
+3:29PM
+---
 
+"Production? Where we're going, we won't need Production" -Not Back to the Future
+
+"The purpose of borderline useful is ability to know what's borderline." -Nobody
