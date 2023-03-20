@@ -54,17 +54,41 @@ https://www.sqlitetutorial.net/sqlite-import-csv/ using SQLStudio: https://sqlit
 3/20/23
 --------
 Just learned strikethrough is an option on Github. ~~This is a test~~. If Strikethrough appears, additional edits are not required. Strikethrough has many benefits, as 
-it doesn't require the average read to look into the history to see changes and corrections made. Also, this is a rule in science notebooks, which helps understand what happened in an experiment:
+it doesn't require the average reader to look into the history to see changes and corrections made. Also, this is a rule in science notebooks, which helps understand what happened in an experiment:
 
 "https://openwetware.org/wiki/BISC110/F13:Guidelines_for_maintaining_your_lab_notebook
 "• If you make mistakes, do NOT obliterate the error; instead, strike-through once. Never erase, use "white-out," or tear out pages. It is fine to strike-through or X-out (once!) whole pages if it is necessary to start over. You must use an indelible pen to write in your lab notebook. It would not be of much use as a legal document if it were written in pencil.""
 
-In the digital age, some of these practices can't always be practiced, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, such as a lmdb: http://www.lmdb.tech/doc/
+In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~such~~as~~a~~lmdb~~ : http://www.lmdb.tech/doc/
 
-I am interested in several DBS, like leveldb: https://github.com/google/leveldb
+"The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory, so no malloc's or memcpy's occur during data fetches. As such, the library is extremely simple because it requires no page caching layer of its own, and it is extremely high performance and memory-efficient. It is also fully transactional with full ACID semantics, and when the memory map is read-only, the database integrity cannot be corrupted by stray pointer writes from application code."
+
+I am more interested in combining all layers and aspects of non-essential, non-ACID compliant DBs in a UDP manner using RESTful async- that is, a DB requiring as little sync as possible to complete a query. Part of the puzzle is finding the simplest protocol in each layer.
+
+A hypothetical DB returning just a single key value after querying a different key would represent the simplest transactional DB. Client-side translation services (an index, a legend, a key) would be able to provided additional bandwidth savings for minimizing/eliminating redundant query data.
+
+For example, a daily horoscope website:
+
+I wanted to make a super simple database where people could get their horoscope, there would only be 12 (assuming the standard type). But let's say, a fortune teller writes 365x12 horoscopes and publishes them Dec 31st of each year. Users could download the entire anthology, but for symbolic purposes, they'd need to query locally or the server a single key to search their horoscope for the day. This stories change daily, but all users would have to type in is a letter, all for the first through last astrological sign of the year. The front end would have additional browser conversion tools so it would convert the string into a letter, if they prefer to type in the word (like Taurus), (but search suggestion, a list to click on, or a drop down menu could be used as well). Plus the site wouldn't fetch other website data from the same db, only the query.
+
+This could use a simpler text format than unicode, to save on binary data. So perhaps ascii https://en.wikipedia.org/wiki/ASCII#Bit_width
+Ita2, though the DB software itself may be using Unicode so that may not be possible.
+
+Anyways, leveldb, can handle 200k,-400k writes per second, so I am curious if I could host a web server where queries from unique up addresses are a alotted one search per minute (to limit traffic) so that it could gather up the queries in a batch in approximately 20-30 seconds, then return the results while locking the DB for writing.
+
+This could be useful in cases where sending the entire horoscope for all 12 possibilities are bandwidth and memory intensive, and for that, I'd have a separate key, client side (on the website). The key value db would return a unique result for that day (determined only a day or two on advance, a-l)
+
+[https://github.com/google/leveldb](https://github.com/google/leveldb#write-performance)
+
+
 
 I haven't actually found the exact type of DB, but there are things I like about several of them, such as Apache Kafka:
-https://en.wikipedia.org/wiki/Apache_Kafka
+https://en.wikipedia.org/wiki/Apache_Kafka (this perhaps could improve the write speed of queries- by completing them in batches- waiting enough time for queries to populate, although this would not necessarily be faster for the user although it might reduce the wear on the drive).
+
+Amazon's Nitro offloads some of the compute to PCI-e cards, which is also interesting since it wouldn't have as much of a CPU bottleneck:
+https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will
+
+It'd be interesting to see an LMDB running on a Raspberry Pi or similar SoC in RAM that achieves a record number of OPs or writes/second, provided the nand flash/microsd isn't required for the DB to access during the main DB function. 
 
 "Kafka uses a binary TCP-based protocol that is optimized for efficiency and relies on a "message set" abstraction that naturally groups messages together to reduce the overhead of the network roundtrip. This "leads to larger network packets, larger sequential disk operations, contiguous memory blocks [...] which allows Kafka to turn a bursty stream of random message writes into linear writes."[3]"
 
