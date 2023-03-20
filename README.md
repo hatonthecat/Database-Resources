@@ -130,3 +130,11 @@ https://github.com/quarkusio/quarkus
 "Production? Where we're going, we won't need Production" -Not Back to the Future
 
 "The purpose of borderline useful is ability to know what's borderline." -Nobody
+
+--
+3:49 PM
+--
+
+I have an interest in DBs, but I have no specific bias of what to develop, since I have no prior knowledge of how they work. In an abstract sense, databases can be designed to meet a one-size fits many, or a very specific application. I think it is more interesting to develop a DB for a very specific use-case. However, even finding a specific use can be difficult. Instead of spending all my time looking for specific use cases, I can hypothesize more abstract databases, and try to hybridize concepts (regardless of new or old) that have not been hybridized before. Classsic Mendelian genetics.
+
+Mendelian DBs. I should say. But the other concept above is more like Occam's Razor. so it could be called Occam's DB, or MendelDB, or MendelOcs (like Dev Ops but Dev Ocs)
