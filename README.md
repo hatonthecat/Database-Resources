@@ -59,7 +59,7 @@ it doesn't require the average reader to look into the history to see changes an
 "https://openwetware.org/wiki/BISC110/F13:Guidelines_for_maintaining_your_lab_notebook
 "• If you make mistakes, do NOT obliterate the error; instead, strike-through once. Never erase, use "white-out," or tear out pages. It is fine to strike-through or X-out (once!) whole pages if it is necessary to start over. You must use an indelible pen to write in your lab notebook. It would not be of much use as a legal document if it were written in pencil.""
 
-In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~~such~as~a  lmdb~~ :http://www.lmdb.tech/doc/
+In the digital age, some of these practices can't always be ~~practiced~~ realized, but as a general rule, it helps with science having an open methods. Secondly, certain databases that I have great interest in do not all have record keeping for every query in a write-through, ~~such~ ~as~~ ~~a~~  ~~lmdb~~ :http://www.lmdb.tech/doc/
 
 "The entire database is exposed in a memory map, and all data fetches return data directly from the mapped memory, so no malloc's or memcpy's occur during data fetches. As such, the library is extremely simple because it requires no page caching layer of its own, and it is extremely high performance and memory-efficient. It is also fully transactional with full ACID semantics, and when the memory map is read-only, the database integrity cannot be corrupted by stray pointer writes from application code."
 
@@ -86,7 +86,9 @@ This could be useful in cases where sending the entire horoscope for all 12 poss
 
 
 I haven't actually found the exact type of DB, but there are things I like about several of them, such as Apache Kafka:
-https://en.wikipedia.org/wiki/Apache_Kafka (this perhaps could improve the write speed of queries- by completing them in batches- waiting enough time for queries to populate, although this would not necessarily be faster for the user although it might reduce the wear on the drive).
+https://en.wikipedia.org/wiki/Apache_Kafka (this perhaps could improve the write speed of queries- by completing them in batches- waiting enough time for queries to populate, although this would ~~not~~ necessarily be faster for the user, although it might reduce the wear on the drive).
+
+NVMe failure rates (4 year data from Backblaze): https://arstechnica.com/gadgets/2023/03/new-data-tracks-failure-rates-of-13-ssd-models-going-back-up-to-4-years/
 
 Amazon's Nitro offloads some of the compute to PCI-e cards, which is also interesting since it wouldn't have as much of a CPU bottleneck:
 https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will
