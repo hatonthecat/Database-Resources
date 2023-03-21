@@ -150,5 +150,10 @@ gem 'blacklight', ">= 6.1""
 Though I was copying and pasting most of this to follow along. I got to this part then reached an error:
 https://github.com/projectblacklight/blacklight/wiki/Quickstart#creating-a-new-application-the-hard-way
 
+![image](https://user-images.githubusercontent.com/76194453/226511630-0918416f-d85a-4e60-ade4-72e6c4e9d721.png)
 
+![image](https://user-images.githubusercontent.com/76194453/226511705-20226fa1-e16f-4dcb-aa33-902beff08506.png)
+
+
+probably some directory errors in designating (or not designating the right folder for a gem/dependecy/wrapper
 
