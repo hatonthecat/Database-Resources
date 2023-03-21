@@ -166,7 +166,7 @@ but that wasn't very useful beyond ensuring it can run with up to date dependenc
 3/21/2023
 ---
 
-Been checking out lightweight JSON and PERL libraries for encoding, particularly interested in https://github.com/StarryInternet/missive, Fringe, https://github.com/StarryInternet/fringe,  https://metacpan.org/dist/YAML-Tiny,  Type:Tiny
+Been checking out lightweight JSON and PERL libraries for encoding, particularly interested in https://github.com/StarryInternet/missive, Fringe, https://github.com/StarryInternet/fringe,  https://metacpan.org/dist/YAML-Tiny,  Type:Tiny https://metacpan.org/pod/Type::Tiny
 https://github.com/evalEmpire/method-signatures/issues/81#issuecomment-20506956, https://github.com/moose/Moo  and Mite: https://metacpan.org/pod/Mite
 
 Perhaps I could use these to develop an RDF protocol: https://en.wikipedia.org/wiki/JSON_streaming#Introduction using length prefixing using a combination of Turtle and DSL: https://metacpan.org/pod/RDF::TrineX::Parser::Pretdsl https://www.w3.org/TR/turtle/ (I am still figuring out the differences between some of these, so turtle with me (instead of bear with me, or moose with me)
