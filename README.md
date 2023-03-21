@@ -138,3 +138,17 @@ https://github.com/quarkusio/quarkus
 I have an interest in DBs, but I have no specific bias of what to develop, since I have no prior knowledge of how they work. In an abstract sense, databases can be designed to meet a one-size fits many, or a very specific application. I think it is more interesting to develop a DB for a very specific use-case. However, even finding a specific use can be difficult. Instead of spending all my time looking for specific use cases, I can hypothesize more abstract databases, and try to hybridize concepts (regardless of new or old) that have not been hybridized before. Classsic Mendelian genetics.
 
 Mendelian DBs. I should say. But the other concept above is more like Occam's Razor. so it could be called Occam's DB, or MendelDB, or MendelOcs (like Dev Ops but Dev Ocs)
+
+---
+10:14PM
+---
+
+Resumed installation of Blacklight. Had installation errors with "Append this lines to your application's Gemfile
+
+gem 'blacklight', ">= 6.1""
+
+Though I was copying and pasting most of this to follow along. I got to this part then reached an error:
+https://github.com/projectblacklight/blacklight/wiki/Quickstart#creating-a-new-application-the-hard-way
+
+image.png
+
