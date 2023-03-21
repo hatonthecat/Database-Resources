@@ -99,7 +99,7 @@ NVMe failure rates (4 year data from Backblaze): https://arstechnica.com/gadgets
 Amazon's Nitro offloads some of the compute to PCI-e cards, which is also interesting since it wouldn't have as much of a CPU bottleneck:
 https://www.semianalysis.com/p/amazons-cloud-crisis-how-aws-will
 
-It'd be interesting to see an LMDB running on a Raspberry Pi or similar SoC in RAM that achieves a record number of OPs or writes/second, provided the nand flash/microsd isn't required for the DB to access during the main DB function. 
+It'd be interesting to see an LMDB running on a Raspberry Pi or similar SoC in RAM that achieves a record number of OPs or writes/second, provided the nand flash/microsd isn't required for the DB to access during the main DB function. Something like this: https://pimylifeup.com/raspberry-pi-redis/
 
 "Kafka uses a binary TCP-based protocol that is optimized for efficiency and relies on a "message set" abstraction that naturally groups messages together to reduce the overhead of the network roundtrip. This "leads to larger network packets, larger sequential disk operations, contiguous memory blocks [...] which allows Kafka to turn a bursty stream of random message writes into linear writes."[3]"
 
