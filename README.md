@@ -155,5 +155,5 @@ https://github.com/projectblacklight/blacklight/wiki/Quickstart#creating-a-new-a
 ![image](https://user-images.githubusercontent.com/76194453/226511705-20226fa1-e16f-4dcb-aa33-902beff08506.png)
 
 
-probably some directory errors in designating (or not designating the right folder for a gem/dependecy/wrapper
+probably some directory errors in designating (or not designating the right folder for a gem/dependency/wrapper
 
