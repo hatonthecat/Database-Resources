@@ -154,6 +154,24 @@ https://github.com/projectblacklight/blacklight/wiki/Quickstart#creating-a-new-a
 
 ![image](https://user-images.githubusercontent.com/76194453/226511705-20226fa1-e16f-4dcb-aa33-902beff08506.png)
 
-
 probably some directory errors in designating (or not designating the right folder for a gem/dependency/wrapper
+
+The rails server worked, like the day before:
+
+![image](https://user-images.githubusercontent.com/76194453/226654737-da259397-b45d-44f3-bec7-9897589c2308.png) 
+
+but that wasn't very useful beyond ensuring it can run with up to date dependencies.
+
+---
+3/21/2023
+---
+
+Been checking out lightweight JSON and PERL libraries for encoding, particularly interested in https://github.com/StarryInternet/missive, Fringe, https://github.com/StarryInternet/fringe,  https://metacpan.org/dist/YAML-Tiny,  Type:Tiny
+https://github.com/evalEmpire/method-signatures/issues/81#issuecomment-20506956, https://github.com/moose/Moo  and Mite: https://metacpan.org/pod/Mite
+
+Perhaps I could use these to develop an RDF protocol: https://en.wikipedia.org/wiki/JSON_streaming#Introduction using length prefixing using a combination of Turtle and DSL: https://metacpan.org/pod/RDF::TrineX::Parser::Pretdsl https://www.w3.org/TR/turtle/ (I am still figuring out the differences between some of these, so turtle with me (instead of bear with me, or moose with me)
+
+
+
+
 
