@@ -150,5 +150,5 @@ gem 'blacklight', ">= 6.1""
 Though I was copying and pasting most of this to follow along. I got to this part then reached an error:
 https://github.com/projectblacklight/blacklight/wiki/Quickstart#creating-a-new-application-the-hard-way
 
-image.png
+
 
