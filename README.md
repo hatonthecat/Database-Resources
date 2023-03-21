@@ -171,6 +171,14 @@ https://github.com/evalEmpire/method-signatures/issues/81#issuecomment-20506956,
 
 Perhaps I could use these to develop an RDF protocol: https://en.wikipedia.org/wiki/JSON_streaming#Introduction using length prefixing using a combination of Turtle and DSL: https://metacpan.org/pod/RDF::TrineX::Parser::Pretdsl https://www.w3.org/TR/turtle/ (I am still figuring out the differences between some of these, so turtle with me (instead of bear with me, or moose with me)
 
+--
+6:56PM
+--
+Started a DB project, called LochDB which will be a repository for more DB-specific code. This repository will remain as a resource for posting links and ideas
+
+LochDB https://github.com/hatonthecat/LochDB
+
+Is to explore one of the many applications that OpenLDAP projects have created since their breakout moment 10yrs ago: https://www.symas.com/symas-lmdb-tech-info
 
 
 
