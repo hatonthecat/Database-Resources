@@ -178,7 +178,9 @@ Started a DB project, called LochDB which will be a repository for more DB-speci
 
 LochDB https://github.com/hatonthecat/LochDB
 
-Is to explore one of the many applications that OpenLDAP projects have created since their breakout moment 10yrs ago: https://www.symas.com/symas-lmdb-tech-info (See other projects section for 58 interesting projects)
+Is to explore one of the many applications that OpenLDAP projects have created since their breakout moment 10yrs ago: https://www.symas.com/symas-lmdb-tech-info (See other projects section for 58 interesting projects) From the Wikipedia page on Exaptation, "For example, a trait can evolve because it served one particular function, but subsequently it may come to serve another. Exaptations are common in both anatomy and behaviour."
+
+https://en.wikipedia.org/wiki/Exaptation LMDBs may represent a gold rush era of additive function in evolution, as what once might have had a niche application is later discovered to have more general purpose utility, such as search: https://github.com/meilisearch/
 
 
 
