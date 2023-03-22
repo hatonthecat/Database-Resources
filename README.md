@@ -178,7 +178,7 @@ Started a DB project, called LochDB which will be a repository for more DB-speci
 
 LochDB https://github.com/hatonthecat/LochDB
 
-Is to explore one of the many applications that OpenLDAP projects have created since their breakout moment 10yrs ago: https://www.symas.com/symas-lmdb-tech-info
+Is to explore one of the many applications that OpenLDAP projects have created since their breakout moment 10yrs ago: https://www.symas.com/symas-lmdb-tech-info (See other projects section for 58 interesting projects)
 
 
 
