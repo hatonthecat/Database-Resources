@@ -182,6 +182,9 @@ Is to explore one of the many applications that OpenLDAP projects have created s
 
 https://en.wikipedia.org/wiki/Exaptation LMDBs may represent a gold rush era of additive function in evolution, as what once might have had a niche application is later discovered to have more general purpose utility, such as search: https://github.com/meilisearch/
 
+--
+3/23/23
+--
 
-
+Applying Graph Theory to the Voynich Manuscript could reveal a lead scribe (page 17): https://alumniacademy.yale.edu/sites/default/files/2021-07/Topic%20Modeling%20in%20the%20Voynich%20Manuscript.pdf 
 
