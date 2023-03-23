@@ -186,5 +186,5 @@ https://en.wikipedia.org/wiki/Exaptation LMDBs may represent a gold rush era of 
 3/23/23
 --
 
-Applying Graph Theory to the Voynich Manuscript could reveal a lead scribe (page 17): https://alumniacademy.yale.edu/sites/default/files/2021-07/Topic%20Modeling%20in%20the%20Voynich%20Manuscript.pdf 
+Applying Graph Theory to the Voynich Manuscript could reveal a lead scribe (page 15-17): https://alumniacademy.yale.edu/sites/default/files/2021-07/Topic%20Modeling%20in%20the%20Voynich%20Manuscript.pdf 
 
