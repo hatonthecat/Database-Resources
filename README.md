@@ -188,3 +188,43 @@ https://en.wikipedia.org/wiki/Exaptation LMDBs may represent a gold rush era of 
 
 Applying Graph Theory to the Voynich Manuscript could reveal a lead scribe (page 15-17): https://alumniacademy.yale.edu/sites/default/files/2021-07/Topic%20Modeling%20in%20the%20Voynich%20Manuscript.pdf 
 
+---
+3/24/23
+---
+
+I purchased a Rock Pi S in 2021 and as it has only a GPIO pin for a TFT screen, it is not ideal for using it as a desktop PC, but it has a lot of nice features that make it ideal as a server, much like a Raspberry Pi Zero 2W, but with ethernet and a full USB:
+
+https://wiki.radxa.com/RockpiS/
+
+There are at least 3 OSes that can be installed- the Raxda one, Armbian, and dietPI:
+
+https://forum.radxa.com/t/rock-pi-s-v1-3-only-boots-using-armbian-image/10675
+
+https://en.opensuse.org/HCL:Radxa_Zero
+
+https://dietpi.com/#downloadinfo 
+
+https://www.armbian.com/rockpi-s/ 
+
+Since I already got ruby on Rails setup for Ubuntu on Windows Subsystem, installing it on a headless RockPi shouldn't be too difficult (it also lets me keep my Rasperry Pi Zeros available for more I/O and with 512MB RAM should something be needing that much). 
+
+there are a couple neat things I can do with it: https://forum.radxa.com/t/vnc-server-chromium-gimp-etc/4466
+
+Other ideas include:
+
+A Tilde Server https://tilde.chat Tilde.club https://github.com/cwmccabe/pubnixhist ttps://news.ycombinator.com/item?id=29449238
+
+An activity pub/fediverse instance (just for me, and maybe one other).
+
+A benchmark server - to test maximum connections- using a local 
+ping (if my router allows for it-sure it can- why not ;)
+
+A BBS server- for old folks sake (even though I've never used one)
+
+And more h
+
+
+
+
+
+
