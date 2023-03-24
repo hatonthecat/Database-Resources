@@ -194,7 +194,7 @@ Applying Graph Theory to the Voynich Manuscript could reveal a lead scribe (page
 
 I purchased a Rock Pi S in 2021 and as it has only a GPIO pin for a TFT screen, it is not ideal for using it as a desktop PC, but it has a lot of nice features that make it ideal as a server, much like a Raspberry Pi Zero 2W, but with ethernet and a full USB:
 
-https://wiki.radxa.com/RockpiS/
+[https://wiki.radxa.com/RockpiS/](https://wiki.radxa.com/RockpiS/getting_started)
 
 There are at least 3 OSes that can be installed- the Raxda one, Armbian, and dietPI:
 
