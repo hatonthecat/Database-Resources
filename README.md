@@ -220,8 +220,11 @@ A benchmark server - to test maximum connections- using a local
 ping (if my router allows for it-sure it can- why not ;)
 
 A BBS server- for old folks sake (even though I've never used one)
+https://lunduke.substack.com/p/how-to-set-up-your-own-bbs-server
 
-And more h
+https://www.pcmag.com/news/7-modern-bbses-worth-calling-today
+
+And more 
 
 
 
