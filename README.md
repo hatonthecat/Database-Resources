@@ -198,19 +198,31 @@ I purchased a Rock Pi S in 2021 and as it has only a GPIO pin for a TFT screen, 
 
 https://shop.allnetchina.cn/products/rock-pi-s
 
-Rockchip RK3308 Quad A35 64bit processor with built-in VAD
+"Rockchip RK3308 Quad A35 64bit processor with built-in VAD
+
 256 / 512MB RAM versions
+
 USB 2.0 OTG (type C) + USB 2.0 HOST (type A)
+
 RJ45 10/100Mbit Ethernet
+
 optional PoE (additional HAT required)
+
 802.11 b/g/n Wifi + Bluetooth 4.0 with external antenna connector
+
 26 pin GPIO header
+
 26 pin voice/audio header includes I2S, PCM, TDM, PDM, SPDIF, and HDMI ARC
+
 Size 1.7x1.7inch (~38.1x38.1mm)
+
 Debian, Ubuntu, Armbian and Slackware ARM support
+
 Optional - ROCK Pi S on board storage version with 1Gb/2Gb/4Gb/8Gb SLC NAND flash (data protection in case of power failure)
+
 Power demand idle: 0.5W / full load: 2.8W 
-CPU does not need any heat management!
+
+CPU does not need any heat management!"
 
 There are at least 3 OSes that can be installed- the Raxda one, Armbian, and dietPI:
 
