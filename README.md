@@ -234,6 +234,6 @@ Powerful, fast, and an easy to use search engine](https://github.com/meilisearch
 
 https://github.com/skx/predis/
 
-A wikipedia clone focusing on a single topic, so enthusiastic it appears authentic, but never claiming to be so.
+A wikipedia clone focusing on a single topic, so enthusiastic it appears authentic, but never claiming to be so. All in good. fun.
 
 
