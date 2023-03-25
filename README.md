@@ -224,10 +224,16 @@ https://lunduke.substack.com/p/how-to-set-up-your-own-bbs-server
 
 https://www.pcmag.com/news/7-modern-bbses-worth-calling-today
 
-And more 
+As for databases, well, I almost forgot about that. 
 
 
+Meilisearch
+Powerful, fast, and an easy to use search engine
+[Meilisearch
+Powerful, fast, and an easy to use search engine](https://github.com/meilisearch/)
 
+https://github.com/skx/predis/
 
+A wikipedia clone focusing on a single topic, so enthusiastic it appears authentic, but never claiming to be so.
 
 
