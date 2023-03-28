@@ -264,4 +264,8 @@ https://github.com/skx/predis/
 
 A wikipedia clone focusing on a single topic, so enthusiastic it appears authentic, but never claiming to be so. All in good. fun.
 
+---
+3/28/23
+---
 
+Performance-related improvements in transport layer of PostgreSQL: https://neon.tech/blog/quicker-serverless-postgres
