@@ -269,3 +269,5 @@ A wikipedia clone focusing on a single topic, so enthusiastic it appears authent
 ---
 
 Performance-related improvements in transport layer of PostgreSQL: https://neon.tech/blog/quicker-serverless-postgres
+
+https://about.sourcegraph.com/blog/open-sourcing-cody
